@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link href="./static/style.css" rel="stylesheet">
+    <title>Run Colab Script</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-color">
+        <div class="container">
+          <a class="navbar-brand text-white" href="#">TRADE-X</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            
+              </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" t href="#online_services">Services</a>
+            </li>
+        </li>
+       
+              
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+   
+<!--hero section-->
+
+<section class="bg-main bg-color hero-section">
+    <div class="container">
+        <div class="row mb-1 ">
+            <div class="d-flex flex-column align-items-start justify-content-center col-xl-6 xol-lg-6 col-md-12 col-12 order-1 order-lg-0 text-md-start text-center">
+                <h1 class=" text-capitalize fw-bolder text-white">
+                   <br>TRADE-x
+                </h1>
+                <p class="mt-3 mb-5  para-width text-light-grey ">
+                    Step into the future of financial empowerment with our revolutionary trading bot. Unleashing the power of innovation, our bot employs a symphony of algorithms and the artistry of the best trading strategies. 
+                </p>
+
+                <div class="text-center w-100 text-md-start">
+                    <button class="btn btn-primary px-5 py-2 " data-bs-offset="0,5" data-bs-placement="top"
+                            data-bs-title="Get Best Services" data-bs-toggle="tooltip">GET STARTED!
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="col-xl-6 xol-lg-6 col-md-12 col-12 order-0 order-lg-1 hero-image--section ">
+                <div class="text-md-end text-center mb-5">
+
+                    <image  class="hero-video--section"  src="static\bg4.jpg">
+                        Your browser does not support the video tag.
+                    </image>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="custom-shape-divider-bottom-1704883805">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M1200 0L0 0 892.25 114.72 1200 0z" class="shape-fill"></path>
+        </svg>
+    </div>
+</section>
+
+
+<!--hero section end -->
+
+<!--service section-->
+
+<section class=" services-section" id="online_services">
+    <div class="container text-center common-title fw-bold">
+        <h2 class="common-heading">What We Do</h2>
+        <hr class="w-25 mx-auto ">
+    </div>
+
+    <div class="container mt-5">
+        <div class="row g-5 ">
+            <div class="col-xxl-4 col-lg-4 col-12 ">
+                <div class=" card-box rounded-2 p-5 text-center">
+                    <img alt="GIF Image" class="img-fluid" src="./static/stock.png" width="200px">
+
+                    <h5 class="my-3 fw-normal "> QUANTITATIVE MOMENTUM INVESTING STRATEGY</h5>
+                    <p class="pe-3 mb-5">
+                        RECOMENDS STOCKS WHICH HAVE OUT PERFORMED THEMSELVES DEPENDING ON THEIR EARNING HISTORY
+                    </p>
+                    <p class="d-inline-flex gap-1">
+                        
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                          LET's GO!
+                        </button>
+                        
+                      </p>
+                      <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                            
+                            <form action="/run_colab" method="post">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>SELECT YOUR STOCKS</option>
+                                    <option value="1">APPLE</option>
+                                    <option value="2">NVIDIA</option>
+                                    <option value="3">DELL</option>
+                                  </select>
+                              <button type="submit" class="btn btn-dark">TRADE</button>
+                            </form>
+                        </div>
+                      </div>
+                    <div class="  d-flex justify-content-center align-items-center ">
+                        <a class="icon-span d-flex justify-content-center align-items-center rounded-circle mb-3"
+                           href="/service.html">
+                            <i class="fa-solid fa-arrow-right"> </i>
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xxl-4 col-lg-4 col-12  ">
+                <div class=" card-box rounded-2 p-5 text-center shadow">
+                    <img alt="GIF Image" class="img-fluid" src="./static/candlestick.png" width="200px">
+
+                    <h5 class="my-3 fw-normal"> QUANTITATIVE VALUE INVESTING STRATEGY </h5>
+                    <p class="pe-3 mb-5">
+                        RECOMENDS THE STOCKS WHICH HAVE FALL BELOW THE AVERAGE COSTING AND CAN OUT GROW THEMSELVES IN THE COMING FUTURE
+                    </p>
+                    <p class="d-inline-flex gap-1">
+                        
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                          LET's GO!
+                        </button>
+                        
+                      </p>
+                      <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                            
+                            <form action="/run_colab" method="post">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>SELECT YOUR STOCKS</option>
+                                    <option value="1">APPLE</option>
+                                    <option value="2">NVIDIA</option>
+                                    <option value="3">DELL</option>
+                                  </select>
+                              <button type="submit" class="btn btn-dark">TRADE</button>
+                            </form>
+                        </div>
+                      </div>
+                      
+                    <div class="  d-flex justify-content-center align-items-center ">
+                        <a class="icon-span d-flex justify-content-center align-items-center rounded-circle mb-3"
+                           href="/service.html">
+                            <i class="fa-solid fa-arrow-right"> </i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xxl-4 col-lg-4 col-12 ">
+                <div class=" card-box rounded-2 p-5 text-center">
+                    <img alt="GIF Image" class="img-fluid" src="./static/market.png" width="200px">
+                    <h5 class="my-3 fw-normal "> INDICATORS </h5>
+                    <p class="pe-3 mb-5">
+                        USE OF DIFFERNT KINDS INDICATORS TO GENERATE MAXIMUM PROFITS
+                    </p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        LET's GO!
+                      </button>
+                      
+                    </p>
+                    <div class="collapse" id="collapseExample">
+                      <div class="card card-body">
+                          
+                          <form action="/run_colab" method="post">
+                              <select class="form-select" aria-label="Default select example">
+                                  <option selected>SELECT YOUR STOCKS</option>
+                                  <option value="1">One</option>
+                                  <option value="2">Two</option>
+                                  <option value="3">Three</option>
+                                </select>
+                            <button type="submit" class="btn btn-dark">TRADE</button>
+                          </form>
+                      </div>
+                    </div>
+
+                    <div class="  d-flex justify-content-center align-items-center ">
+                        <a class="icon-span d-flex justify-content-center align-items-center rounded-circle mb-3"
+                           href="/service.html">
+                            <i class="fa-solid fa-arrow-right"> </i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!--service section-->
+
+
+
+
+
+<section class="common-section business-section"    >
+    <div class="container text-center fw-bold common-title">
+        <h2 class="common-heading">HOW we DO IT?</h2>
+        <hr class="w-25 mx-auto ">
+    </div>
+
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-xl-6 col-md-12 ">
+                <div class="d-flex  px-3 py-5 shadow ">
+                    <img alt="GIF Image" class=" d-md-block d-none  img-fluid mx-3" src="./static/7JbT.gif"
+                         width="150px">
+
+                    <div class="row ">
+                        <p class="mb-3 fw-bolder">STOCK SELECTION </p>
+                        <p> We will provide user with stocks that we think will generate more profits and user can select from the list according to there budget</p>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="col-xl-6 col-md-12 ">
+                <div class="d-flex  px-3 py-5 shadow ">
+                    <img alt="GIF Image" class=" d-md-block d-none  img-fluid mx-3" src="./static/algo.jpg"
+                         width="150px">
+
+                    <div class="row ">
+                        <p class="mb-3 fw-bolder">THIS IS WHERE MAGIC HAPPENS! </p>
+                        <p>After selecting stocks we generate sharpe ration for that particular stocks using our highly advanced algorithms </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-6 col-md-12 ">
+                <div class="d-flex  px-3 py-5 shadow ">
+                    <img alt="GIF Image" class=" d-md-block d-none  img-fluid mx-3" src="./static/74pZ.gif"
+                         width="150px">
+
+                    <div class="row ">
+                        <p class="mb-3 fw-bolder">TRADING</p>
+                        <p>Once the ration is generated now its time to make some money out off it. we generate market orders for the stock </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-6 col-md-12 ">
+                <div class="d-flex  px-3 py-5 shadow ">
+                    <img alt="GIF Image" class=" d-md-block d-none  img-fluid mx-3" src="./static/pnl.jpg"
+                         width="150px">
+
+                    <div class="row ">
+                        <p class="mb-3 fw-bolder">P&L statements</p>
+                        <p>NOW ITS TIME TO CHECK IF YOU ARE RICH OR SUPER RICH!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+<!--contact section-->
+<section class="common-section bg-color contact-section text-white">
+    <div class="custom-shape-divider-top-1684211116">
+        <svg data-name="Layer 1" preserveAspectRatio="none" viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg">
+            <path class="shape-fill"
+                  d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"></path>
+        </svg>
+    </div>
+
+    <div class="container text-center fw-bold common-title ">
+        <h2 class="common-heading text-white ">Contact Us</h2>
+        <hr class="w-25 mx-auto">
+    </div>
+
+    <div class="container ">
+        <div class="form-section  mx-auto">
+            <form>
+                <div class="mb-3">
+                    <div class="row">
+                        <div class="col">
+                            <label class="form-label" for="first-name">First name</label>
+                            <input class="form-control" id="first-name" placeholder="First name"
+                                   aria-label="First name" type="text" required>
+                        </div>
+                        <div class="col">
+                            <label for="last-name" class="form-label">Last name</label>
+                            <input type="text" class="form-control" id="last-name" placeholder="Last name"
+                                   aria-label="Last name" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" required
+                           placeholder="Enter your email" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text text-white">We'll never share your email with anyone else.
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" required
+                              placeholder="Enter your message " rows="3"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+
+</section>
+
+
+<!--contact section end -->
+
+
+<!--footer section-->
+
+<footer class="main-footer-section">
+    <div class="contact-details">
+        <div class="container px-5">
+            <div class="row g-0">
+                <div class="col-lg-4 ">
+                    <div class="contact-div p-5 d-flex flex-column justify-content-center align-items-center">
+                        <div class="icon-div d-flex justify-content-center align-items-center rounded-circle mb-3">
+                            <img src="./images/call.gif" alt="GIF Image" class="img-fluid">
+                        </div>
+                        <p class="text-white">(+00) 1234 5678</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 ">
+                    <div class="contact-div p-5 d-flex flex-column justify-content-center align-items-center">
+                        <div class="icon-div d-flex justify-content-center align-items-center rounded-circle mb-3">
+                            <!--                            <i class="fa-solid fa-phone"></i>-->
+                            <img src="./images/email.gif" alt="GIF Image" class="img-fluid">
+                        </div>
+                        <p class="text-white">(+00) 1234 5678</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 ">
+                    <div class="contact-div p-5 d-flex flex-column justify-content-center align-items-center">
+                        <div class="icon-div d-flex justify-content-center align-items-center rounded-circle mb-3">
+                            <img src="./images/map.gif" alt="GIF Image" class="img-fluid">
+                        </div>
+                        <p class="text-white">(+00) 1234 5678</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-section py-5 text-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-md-6 col-6">
+                        <div class="footer-links">
+                            <h4 class="text-white mt-5 mb-3">About</h4>
+                            <ul class="text-light-grey list-unstyled d-flex flex-column gap-2">
+                                <li>Our Story</li>
+                                <li>Our Story</li>
+                                <li>Our Story</li>
+                                <li>Our Story</li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 col-6">
+                        <div class="footer-links">
+                            <h4 class="text-white mt-5 mb-3">About</h4>
+                            <ul class="text-light-grey list-unstyled d-flex flex-column gap-2">
+                                <li>Our Story</li>
+                                <li>Our Story</li>
+                                <li>Our Story</li>
+                                <li>Our Story</li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 col-6">
+                        <div class="footer-links">
+                            <h4 class="text-white mt-5 mb-3">About</h4>
+                            <ul class="text-light-grey list-unstyled d-flex flex-column gap-2">
+                                <li>Our Story</li>
+                                <li>Our Story</li>
+                                <li>Our Story</li>
+                                <li>Our Story</li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <div class="footer-links">
+                            <h4 class="mt-5 mb-3 text-white">Subscribe</h4>
+                            <div class="input-group mb-3 w-75">
+                                <input type="text" class="form-control" placeholder="Recipient's username"
+                                       aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <span class="input-group-text btn btn-primary" id="basic-addon2">Subscribe</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <hr class="container mx-auto">
+
+            <div class="row">
+                <div class="col-lg-8 col-12 ">
+                    Copyright ©2023 All rights reserved. |  <span class="bg-theme"> TRADE.x.com</span>
+                </div>
+                <div class="col-md-4 col-12  ">
+                    <div class="d-flex justify-content-center justify-content-lg-end gap-5 mt-lg-0 mt-3">
+                        <a href="https://www.instagram.com/thapatechnical/" target="_blank">
+                            <div class="icon-span d-flex justify-content-center align-items-center rounded-circle mb-3">
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                        </a>
+                        <div class="icon-span d-flex justify-content-center align-items-center rounded-circle mb-3">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+                        <div class="icon-span d-flex justify-content-center align-items-center rounded-circle mb-3">
+<!--                            <i class="fa-brands fa-whatsapp"></i>-->
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
