@@ -1,8 +1,5 @@
 
-Certainly! Below is the content structured in Markdown format for your GitHub README file. I have also formatted it in a way that emphasizes clarity, readability, and proper GitHub styling. You can copy-paste this directly into your README file.
 
-markdown
-Copy code
 # Automated Trading System Using Deep Reinforcement Learning (DRL)
 
 ## Project Overview
