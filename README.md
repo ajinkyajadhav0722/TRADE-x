@@ -1,4 +1,4 @@
-Project Overview
+Project Overview🎯
 The project integrates financial data analysis, Deep Reinforcement Learning (DRL), and backtesting frameworks to develop an automated trading system. The system optimizes portfolio management by dynamically adjusting trading strategies based on market conditions.
 
 Insights and Key Features
@@ -36,18 +36,21 @@ Visualized account value progression over time for comprehensive analysis.
 Connected to Alpaca Trading API for automated execution of trades.
 Market Orders: Automated the buying and selling of stocks based on DRL recommendations.
 Paper Trading: Enabled virtual trading for risk-free testing of strategies.
-Key Results
-Improved Predictions:
+Key Results🚀
+1)Improved Predictions:
 
 Leveraged DRL to enhance market prediction accuracy by dynamically adapting to market trends.
 Achieved a 25% improvement in forecasting accuracy compared to traditional strategies.
-Portfolio Performance:
+
+2)Portfolio Performance:
 
 Boosted simulated trading profit margins by 15% using enhanced technical features and model optimizations.
 Generated higher cumulative returns compared to the Dow Jones Index baseline.
-Efficient Strategy Adjustment:
+
+3)Efficient Strategy Adjustment:
 
 Implemented dynamic rebalancing to ensure the portfolio adapts effectively to market volatility.
-Risk-Adjusted Return:
+
+4)Risk-Adjusted Return:
 
 Achieved a Sharpe Ratio > 0.4, indicating superior risk-adjusted returns.
